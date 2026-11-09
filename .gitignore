@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# dotenv environment variables file
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local dumps and temp
+localhost_*.html
+tmp/
+
+# Unused legacy 3D assets from portfolio template
+public/textures/corridor/
+public/textures/gallery/
+public/textures/entrance/
+public/textures/doors/
+public/textures/studio/
+public/textures/about/
+public/textures/contact/
+public/textures/clouds/
+public/sounds/
+public/videos/
